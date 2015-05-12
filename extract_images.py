@@ -4,8 +4,8 @@ from wand.image import Image
 from wand.display import display
 from wand.color import Color
 
-fileDirectory = "D:/Ashis_Work/NIROPS/nirops.doc/posters and brochures/posters and brochures/"
-inFileName = "AMS_Poster_Esize.pdf"
+fileDirectory = "D:/files/"
+inFileName = "infile.pdf"
 outFileName = "outfile.png"
 
 filesInDir = os.listdir(fileDirectory)
